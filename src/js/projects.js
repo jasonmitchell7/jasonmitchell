@@ -1,7 +1,7 @@
 const projects = [
     {
         title: "Simple Directions",
-        brief: "A simple solution in Swift",
+        brief: "Angular 4 and Google Maps API",
         link: "/",
         image: "/assets/projects/planes.png",
         created: "05/15/2017",
@@ -13,15 +13,15 @@ const projects = [
         "styling on the buttons and text inputs."
     },
     {
-        title: "ImgTools",
-        brief: "Linux based image library",
+        title: "Slices iOS",
+        brief: "iOS social media app and API",
         link: "/",
         image: "/assets/projects/planes.png",
-        created: "05/01/2016",
-        description: "ImgTools was a library created in C++ with two other University of Minnesota Students. The " +
-        "library provides an interface to GLUI and allows the building of a MS Paint like application. Along with the " +
-        "library, we created two tools. One is a basic MS Paint application and the other is a basic medical imaging " +
-        "program. This was a semester long class project in a Program Design class."
+        created: "03/24/2017",
+        description: "The Slices iOS application was created largely in Swift. In makes a lot of use of the " +
+        "AVFoundation and UIKit libraries. The Slices API was created using Ruby on Rails. It is deployed using Amazon " +
+        "AWS, including a GitLab instance. Features included nested reactions to each post, stacking filters, basic " +
+        "face recognition."
     },
     {
         title: "Personal Website",
@@ -34,13 +34,15 @@ const projects = [
         "of employment."
     },
     {
-        title: "Planes",
-        brief: "Multi platform game",
+        title: "ImgTools",
+        brief: "Linux based image library",
         link: "/",
         image: "/assets/projects/planes.png",
-        created: "01/20/2016",
-        description: "Planes was a game I created using C# and Unity. It was my first project in Unity, and a " +
-        "learning experience in using Unity to develop for both iOS and Android simultaneously."
+        created: "05/01/2016",
+        description: "ImgTools was a library created in C++ with two other University of Minnesota students. The " +
+        "library provides an interface to GLUI and allows the building of a MS Paint like application. Along with the " +
+        "library, we created two tools. One is a basic MS Paint application and the other is a basic medical imaging " +
+        "program. This was a semester long class project in a Program Design class."
     },
     {
         title: "Silvercure",
@@ -49,18 +51,17 @@ const projects = [
         image: "/assets/projects/planes.png",
         created: "02/20/2016",
         description: "This game was developed to help promote a band named 'Silvercure'. It plays their music in the " +
-        "background and magnifies the intensity of the game world based on the current frequency spectrum of the music."
+        "background and magnifies the intensity of the game world based on the current frequency spectrum of the" +
+        " music. This was developed in Unity using C#."
     },
     {
-        title: "Slices iOS",
-        brief: "iOS social media app and API",
+        title: "Planes",
+        brief: "Multi platform game",
         link: "/",
         image: "/assets/projects/planes.png",
-        created: "03/24/2017",
-        description: "Slices iOS application was created largely in Swift. In makes a lot of use of the AVFoundation " +
-        "and UIKit libraries. The Slices API was created using Ruby on Rails. It is deployed using Amazon " +
-        "AWS, including a GitLab instance. Features included nested reactions to each post, stacking filters, basic " +
-        "face recognition."
+        created: "01/20/2016",
+        description: "Planes was a game I created using C# and Unity. It was my first project in Unity, and a " +
+        "learning experience in using Unity to develop for both iOS and Android simultaneously."
     }
 ];
 
