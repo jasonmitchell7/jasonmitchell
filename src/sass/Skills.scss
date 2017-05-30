@@ -1,0 +1,49 @@
+@import 'Global';
+
+.skillContainer {
+  padding: 5px 5px 10px 5px;
+
+  .skillName {
+    padding-top: 20px;
+  }
+
+  .skillInfo {
+    display: flex;
+    justify-content: flex-start;
+
+    .skillDescription {
+      background: $colorGreyDark;
+      color: $colorPrimaryLight;
+      margin-top: 20px;
+      margin-left: 30px;
+      padding: 10px;
+      border-radius: 10px;
+
+      &.showDescription {
+        animation: displayDescriptionAnim 0.5s linear;
+
+        @keyframes displayDescriptionAnim {
+          0% {
+            opacity: 0;
+            transform-origin: bottom left;
+            transform: scale(0);
+          }
+          100% {
+            opacity: 1;
+            transform-origin: bottom left;
+            transform: scale(1);
+          }
+        }
+      }
+    }
+
+    .arrowDown {
+      margin-left: 40px;
+      border-top-color: $colorGreyDark;
+    }
+
+    .skillKnowledge {
+      padding-top: 20px;
+    }
+  }
+}

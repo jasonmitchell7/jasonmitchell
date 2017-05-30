@@ -1,0 +1,16 @@
+.projects {
+  .projectElement {
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+  }
+
+  @media screen and (max-width: 775px) {
+    .projectItem {
+      width: 80%;
+    }
+  }
+}

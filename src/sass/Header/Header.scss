@@ -1,0 +1,37 @@
+@import '../Global';
+
+.header {
+  height: 600px;
+  width: 100%;
+
+  .fader {
+    @include background-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+    position: absolute;
+    height: 550px;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+
+  }
+
+  .box {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    z-index: -3;
+    overflow: hidden;
+    background: {
+      color: black;
+      image: url("../../assets/header-bg.png");
+      size: contain;
+      position: top center;
+      attachment: fixed;
+      repeat: no-repeat;
+    }
+
+    @media screen and (max-width: 1470px) {
+      background-size: auto 600px;
+    }
+  }
+}

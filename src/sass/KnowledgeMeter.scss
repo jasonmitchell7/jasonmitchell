@@ -1,0 +1,59 @@
+@import 'Global';
+
+$outlineColor: $colorGreyDark;
+$backgroundColor: $colorGreyLight;
+$insideColor: $colorSecondary;
+
+.meterWrapper {
+  position: relative;
+  height: 34px;
+  width: 100px;
+
+  .meterContainer {
+    width: 100px;
+    height: 34px;
+    padding: 0;
+    margin: 0;
+    background: $backgroundColor;
+    border: 8px solid $outlineColor;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  .meterInside {
+    background: $insideColor;
+    width: 6px;
+    margin: 4px 2px 4px 2px;
+    height: 26px;
+    border-radius: 4px;
+  }
+
+  .meterEndCap {
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+    background: $outlineColor;
+    border-right: 2px solid $outlineColor;
+    border-radius: 4px;
+    position: absolute;
+    top: -34px;
+    left: 110px;
+  }
+
+  &.showMeter {
+    .meterInside {
+      animation: displayMeterAnim 0.5s linear;
+
+      @keyframes displayMeterAnim {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

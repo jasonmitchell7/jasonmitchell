@@ -1,0 +1,29 @@
+@import '../Global';
+
+#siteLogo {
+  height: 100px;
+  width: 40%;
+  position: absolute;
+  z-index: -1;
+  top: 300px;
+  left: 30%;
+  margin-top: -50px;
+  text-align: center;
+  color: $colorPrimaryLight;
+  filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.95));
+
+  .name {
+    font-family: $serif;
+    font-size: 40pt;
+  }
+
+  .description {
+    padding-top: 10px;
+    font-family: $sans-serif;
+    font-size: 14pt;
+    position: relative;
+    line-height: 14px;
+    display: inline-block;
+    width:100%;
+  }
+}

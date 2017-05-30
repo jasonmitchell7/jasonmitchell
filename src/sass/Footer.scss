@@ -1,0 +1,64 @@
+@import 'Global';
+
+footer {
+  background-color: $colorPrimary;
+  color: $colorPrimaryLight;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: -4;
+  display: block;
+
+  .footerContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+
+    #recentPostsColumn, #socialColumn, #contactColumn {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding: 20px 10px 20px 10px;
+    }
+
+    #recentPostsColumn {
+      width: 30%;
+      min-width: 140px;
+    }
+
+    #socialColumn {
+      width: 10%;
+      min-width: 82px;
+    }
+    #contactContainer {
+      width: 30%;
+      min-width: 100px;
+      height: 200px;
+    }
+
+    strong{
+      color: $colorSecondary;
+      text-transform: uppercase;
+    }
+
+    @media screen and (max-width: 421px) {
+      #recentPostsColumn {
+        display: none;
+      }
+
+      #contactContainer {
+        flex: 1;
+      }
+    }
+  }
+
+  #copyright {
+    margin: 0 auto 0 auto;
+    color: $colorPrimaryLight;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10pt;
+  }
+}
