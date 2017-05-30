@@ -5,7 +5,7 @@ var path = require('path');
 var projects = require('./src/js/projects');
 
 module.exports = {
-    context: path.in(__dirname, "src"),
+    context: path.join(__dirname, "src"),
     devtool: debug ? "inline-sourcemap" : null,
     entry: "./js/app.js",
     module: {
