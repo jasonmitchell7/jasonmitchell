@@ -1,16 +1,62 @@
+@import 'Global';
+
 .projects {
   .projectElement {
     font-weight: bold;
-    font-size: 16pt;
     margin: 0 auto 0 auto;
     padding: 20px;
     text-align: center;
-    width: 40%;
+    width:70%;
+
+    display: flex;
+    flex-direction: row;
+
+    .projectImage {
+      border: 2px solid $colorGreyLight;
+      border-radius: 20px;
+      height: 200px;
+      width: 200px;
+      margin-right: 10px;
+      background: {
+        image: url("../assets/projects/planes.png");
+        color: black;
+        size: cover;
+        position: top center;
+        repeat: no-repeat;
+      }
+    }
+
+    .projectCard {
+      width: 70%;
+      background-color: $colorPrimary;
+      padding: 15px;
+      border: 2px solid $colorSecondary;
+      border-radius: 20px;
+
+      .projectTitle {
+        font-size: 18pt;
+        font-weight: bold;
+        font-family: $serif;
+        color: $colorSecondary;
+      }
+      .projectBrief {
+        font-size: 12pt;
+        font-weight: bold;
+        color: $colorGreyLight;
+        width: 100%;
+        border-bottom: 2px solid $colorPrimaryLight;
+      }
+      .projectDescription {
+        font-size: 12pt;
+        font-weight: normal;
+        color: $colorPrimaryLight;
+      }
+    }
   }
 
   @media screen and (max-width: 775px) {
-    .projectItem {
-      width: 80%;
+    .projectElement {
+      width: 90%;
     }
   }
 }
