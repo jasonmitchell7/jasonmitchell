@@ -2,92 +2,25 @@
 
 #contactPage {
   #contactMethods {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    color: $colorPrimaryLight;
+    background: $colorPrimary;
     padding: 20px 20px 20px 20px;
+    border-radius: 20px;
 
-    #contactForm {
-      display: block;
-      flex: 1;
-      color: $colorPrimaryLight;
-      background: $colorPrimary;
-      padding: 20px 20px 20px 20px;
-      border-radius: 20px;
-      margin-right: 20px;
-      text-align: center;
-
-      #contactDescription {
-        margin-bottom: 20px;
+    .email, .social {
+      h3 {
+        color: $colorGreyLight;
       }
-
-      #formNotification {
-        font-size: 11pt;
-        margin-bottom: 20px;
-      }
-
-      .formField {
-        margin: 20px auto 20px auto;
-
-        textarea, input {
-          width: 100%;
-          @include box-sizing(border-box);
-        }
-
-        textarea {
-          min-height: 100px;
-        }
-      }
-
-      .formSubmit {
-        width: auto;
-        padding: 10px 20px;
-        background: $colorSecondary;
-        border-radius: 5px;
-        transition: all 300ms ease-in-out;
-
-        input {
-          background: none;
-          color: $colorPrimary;
-          text-transform: uppercase;
-          font-size: 14pt;
-        }
-
-        &:hover {
-          padding: 15px 30px;
-
-          input {
-            color: $colorPrimaryLight;
-          }
-        }
-      }
-
-      .invalidInput {
-        border: 2px solid red;
-      }
+      padding: 10px;
     }
+  }
+
+
+  @media screen and (max-width: 775px) {
+    flex-direction: column;
 
     #otherContactMethods {
-      color: $colorPrimaryLight;
-      background: $colorPrimary;
-      padding: 20px 20px 20px 20px;
-      border-radius: 20px;
-
-      .email, .social {
-        h3 {
-          color: $colorGreyLight;
-        }
-        padding: 10px;
-      }
-    }
-
-
-    @media screen and (max-width: 775px) {
-      flex-direction: column;
-
-      #otherContactMethods {
-        margin: 50px 20px 0 0;
-      }
+      margin: 50px 20px 0 0;
     }
   }
 }
