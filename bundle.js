@@ -28284,7 +28284,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  padding: 0;\n  margin: 0;\n  color: #2B3A42;\n  background: #EFEFEF;\n  font-family: \"proxima-nova\", sans-serif;\n  font-size: 14pt; }\n\n#contentView {\n  padding: 0 3px 0 3px;\n  z-index: 1;\n  background-color: #EFEFEF;\n  margin-bottom: 300px; }\n\na {\n  text-decoration: none;\n  color: #EFEFEF; }\n\n.sectionPadding {\n  padding: 20px 0 40px 0; }\n\n.bottomPadding {\n  padding-bottom: 10px; }\n\nh1, h2, h3, h4, h5 {\n  padding: 0;\n  margin: 0;\n  font-family: \"lust\", serif;\n  border-bottom: 1px solid #BDD4DE; }\n\nh1 {\n  color: #BDD4DE; }\n\ninput, textarea {\n  font-family: sans-serif;\n  font-size: 12pt;\n  padding: 10px;\n  border: none;\n  border-radius: 5px; }\n\n*:focus {\n  outline: none; }\n\n.displayNone {\n  display: none; }\n\n.arrowDown {\n  width: 0;\n  height: 0;\n  border-left: 10px solid transparent;\n  border-right: 10px solid transparent;\n  border-top: 10px solid #EF8200; }\n\n.separator {\n  background-color: #EFEFEF;\n  height: 2px;\n  width: auto;\n  border-radius: 2px; }\n\n.header {\n  height: 600px;\n  width: 100%; }\n  .header .fader {\n    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);\n    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);\n    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);\n    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);\n    position: absolute;\n    height: 550px;\n    top: 50px;\n    left: 0;\n    width: 100%;\n    z-index: -2; }\n  .header .box {\n    position: relative;\n    height: 600px;\n    width: 100%;\n    z-index: -3;\n    overflow: hidden;\n    background-color: black;\n    background-image: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./src/assets/header-bg.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ");\n    background-size: contain;\n    background-position: top center;\n    background-attachment: fixed;\n    background-repeat: no-repeat; }\n    @media screen and (max-width: 1470px) {\n      .header .box {\n        background-size: auto 600px; } }\n", ""]);
+	exports.push([module.id, "body {\n  padding: 0;\n  margin: 0;\n  color: #2B3A42;\n  background: #EFEFEF;\n  font-family: \"proxima-nova\", sans-serif;\n  font-size: 14pt; }\n\n#contentView {\n  padding: 0 3px 0 3px;\n  z-index: 1;\n  background-color: #EFEFEF;\n  margin-bottom: 300px; }\n\na {\n  text-decoration: none;\n  color: #EFEFEF; }\n\n.sectionPadding {\n  padding: 20px 0 40px 0; }\n\n.bottomPadding {\n  padding-bottom: 10px; }\n\nh1, h2, h3, h4, h5 {\n  padding: 0;\n  margin: 0;\n  font-family: \"lust\", serif;\n  border-bottom: 1px solid #BDD4DE; }\n\nh1 {\n  color: #BDD4DE; }\n\ninput, textarea {\n  font-family: sans-serif;\n  font-size: 12pt;\n  padding: 10px;\n  border: none;\n  border-radius: 5px; }\n\n*:focus {\n  outline: none; }\n\n.displayNone {\n  display: none; }\n\n.arrowDown {\n  width: 0;\n  height: 0;\n  border-left: 10px solid transparent;\n  border-right: 10px solid transparent;\n  border-top: 10px solid #EF8200; }\n\n.separator {\n  background-color: #EFEFEF;\n  height: 2px;\n  width: auto;\n  border-radius: 2px; }\n\n.header {\n  height: 600px;\n  width: 100%; }\n  .header .fader {\n    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);\n    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);\n    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);\n    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);\n    position: absolute;\n    height: 550px;\n    top: 50px;\n    left: 0;\n    width: 100%;\n    z-index: -2; }\n  .header .box {\n    position: relative;\n    height: 600px;\n    width: 100%;\n    z-index: -3;\n    overflow: hidden;\n    background-color: black;\n    background-image: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"https://jasonmitchell7.github.io/src/assets/header-bg.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ");\n    background-size: contain;\n    background-position: top center;\n    background-attachment: fixed;\n    background-repeat: no-repeat; }\n    @media screen and (max-width: 1470px) {\n      .header .box {\n        background-size: auto 600px; } }\n", ""]);
 	
 	// exports
 
@@ -28600,7 +28600,7 @@
 	'use strict';
 	
 	module.exports = {
-	    logoInitialsSrc: 'src/assets/logo-initials.png'
+	    logoInitialsSrc: 'https://jasonmitchell7.github.io/src/assets/logo-initials.png'
 	};
 
 /***/ },
@@ -28784,7 +28784,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  padding: 0;\n  margin: 0;\n  color: #2B3A42;\n  background: #EFEFEF;\n  font-family: \"proxima-nova\", sans-serif;\n  font-size: 14pt; }\n\n#contentView {\n  padding: 0 3px 0 3px;\n  z-index: 1;\n  background-color: #EFEFEF;\n  margin-bottom: 300px; }\n\na {\n  text-decoration: none;\n  color: #EFEFEF; }\n\n.sectionPadding {\n  padding: 20px 0 40px 0; }\n\n.bottomPadding {\n  padding-bottom: 10px; }\n\nh1, h2, h3, h4, h5 {\n  padding: 0;\n  margin: 0;\n  font-family: \"lust\", serif;\n  border-bottom: 1px solid #BDD4DE; }\n\nh1 {\n  color: #BDD4DE; }\n\ninput, textarea {\n  font-family: sans-serif;\n  font-size: 12pt;\n  padding: 10px;\n  border: none;\n  border-radius: 5px; }\n\n*:focus {\n  outline: none; }\n\n.displayNone {\n  display: none; }\n\n.arrowDown {\n  width: 0;\n  height: 0;\n  border-left: 10px solid transparent;\n  border-right: 10px solid transparent;\n  border-top: 10px solid #EF8200; }\n\n.separator {\n  background-color: #EFEFEF;\n  height: 2px;\n  width: auto;\n  border-radius: 2px; }\n\n.projects .projectElement {\n  font-weight: bold;\n  margin: 0 auto 0 auto;\n  padding: 20px;\n  text-align: center;\n  width: 70%;\n  display: flex;\n  flex-direction: row; }\n  .projects .projectElement .projectImage {\n    border: 2px solid #BDD4DE;\n    border-radius: 20px;\n    height: 200px;\n    width: 200px;\n    margin-right: 10px;\n    background-image: url(\"/src/assets/projects/planes.png\");\n    background-color: black;\n    background-size: cover;\n    background-position: top center;\n    background-repeat: no-repeat; }\n  .projects .projectElement .projectCard {\n    width: 70%;\n    background-color: #2B3A42;\n    padding: 15px;\n    border: 2px solid #EF8200;\n    border-radius: 20px; }\n    .projects .projectElement .projectCard .projectTitle {\n      font-size: 18pt;\n      font-weight: bold;\n      font-family: \"lust\", serif;\n      color: #EF8200; }\n    .projects .projectElement .projectCard .projectBrief {\n      font-size: 12pt;\n      font-weight: bold;\n      color: #BDD4DE;\n      width: 100%;\n      border-bottom: 2px solid #EFEFEF; }\n    .projects .projectElement .projectCard .projectDescription {\n      font-size: 12pt;\n      font-weight: normal;\n      color: #EFEFEF; }\n\n@media screen and (max-width: 775px) {\n  .projects .projectElement {\n    width: 90%; } }\n", ""]);
+	exports.push([module.id, "body {\n  padding: 0;\n  margin: 0;\n  color: #2B3A42;\n  background: #EFEFEF;\n  font-family: \"proxima-nova\", sans-serif;\n  font-size: 14pt; }\n\n#contentView {\n  padding: 0 3px 0 3px;\n  z-index: 1;\n  background-color: #EFEFEF;\n  margin-bottom: 300px; }\n\na {\n  text-decoration: none;\n  color: #EFEFEF; }\n\n.sectionPadding {\n  padding: 20px 0 40px 0; }\n\n.bottomPadding {\n  padding-bottom: 10px; }\n\nh1, h2, h3, h4, h5 {\n  padding: 0;\n  margin: 0;\n  font-family: \"lust\", serif;\n  border-bottom: 1px solid #BDD4DE; }\n\nh1 {\n  color: #BDD4DE; }\n\ninput, textarea {\n  font-family: sans-serif;\n  font-size: 12pt;\n  padding: 10px;\n  border: none;\n  border-radius: 5px; }\n\n*:focus {\n  outline: none; }\n\n.displayNone {\n  display: none; }\n\n.arrowDown {\n  width: 0;\n  height: 0;\n  border-left: 10px solid transparent;\n  border-right: 10px solid transparent;\n  border-top: 10px solid #EF8200; }\n\n.separator {\n  background-color: #EFEFEF;\n  height: 2px;\n  width: auto;\n  border-radius: 2px; }\n\n.projects .projectElement {\n  font-weight: bold;\n  margin: 0 auto 0 auto;\n  padding: 20px;\n  text-align: center;\n  width: 70%;\n  display: flex;\n  flex-direction: row; }\n  .projects .projectElement .projectImage {\n    border: 2px solid #BDD4DE;\n    border-radius: 20px;\n    height: 200px;\n    width: 200px;\n    margin-right: 10px;\n    background-image: url(\"https://jasonmitchell7.github.io/src/assets/projects/planes.png\");\n    background-color: black;\n    background-size: cover;\n    background-position: top center;\n    background-repeat: no-repeat; }\n  .projects .projectElement .projectCard {\n    width: 70%;\n    background-color: #2B3A42;\n    padding: 15px;\n    border: 2px solid #EF8200;\n    border-radius: 20px; }\n    .projects .projectElement .projectCard .projectTitle {\n      font-size: 18pt;\n      font-weight: bold;\n      font-family: \"lust\", serif;\n      color: #EF8200; }\n    .projects .projectElement .projectCard .projectBrief {\n      font-size: 12pt;\n      font-weight: bold;\n      color: #BDD4DE;\n      width: 100%;\n      border-bottom: 2px solid #EFEFEF; }\n    .projects .projectElement .projectCard .projectDescription {\n      font-size: 12pt;\n      font-weight: normal;\n      color: #EFEFEF; }\n\n@media screen and (max-width: 775px) {\n  .projects .projectElement {\n    width: 90%; } }\n", ""]);
 	
 	// exports
 
@@ -28799,35 +28799,35 @@
 	    title: "Slices iOS",
 	    brief: "iOS social media app and API",
 	    link: "/",
-	    image: "src/assets/projects/planes.png",
+	    image: "https://jasonmitchell7.github.io/src/assets/projects/planes.png",
 	    created: "03/24/2017",
 	    description: "The Slices iOS application was created largely in Swift. In makes a lot of use of the " + "AVFoundation and UIKit libraries. The Slices API was created using Ruby on Rails. It is deployed using Amazon " + "AWS, including a GitLab instance. Features included nested reactions to each post, stacking filters, basic " + "face recognition."
 	}, {
 	    title: "Personal Website",
 	    brief: "A static website in ReactJS",
 	    link: "/",
-	    image: "src/assets/projects/planes.png",
+	    image: "https://jasonmitchell7.github.io/src/assets/projects/planes.png",
 	    created: "01/20/2017",
 	    description: "My personal website, created with ReactJS. Used to learn the framework and play around with " + "some fun CSS animations, since I don't get to use animations or transitions very much at my current place " + "of employment."
 	}, {
 	    title: "ImgTools",
 	    brief: "Linux based image library",
 	    link: "/",
-	    image: "src/assets/projects/planes.png",
+	    image: "https://jasonmitchell7.github.io/src/assets//projects/planes.png",
 	    created: "05/01/2016",
 	    description: "ImgTools was a library created in C++ with two other University of Minnesota students. The " + "library provides an interface to GLUI and allows the building of a MS Paint like application. Along with the " + "library, we created two tools. One is a basic MS Paint application and the other is a basic medical imaging " + "program. This was a semester long class project in a Program Design class."
 	}, {
 	    title: "Silvercure",
 	    brief: "Music and games collide",
 	    link: "/",
-	    image: "src/assets/projects/planes.png",
+	    image: "https://jasonmitchell7.github.io/src/assets/projects/planes.png",
 	    created: "02/20/2016",
 	    description: "This game was developed to help promote a band named 'Silvercure'. It plays their music in the " + "background and magnifies the intensity of the game world based on the current frequency spectrum of the" + " music. This was developed in Unity using C#."
 	}, {
 	    title: "Planes",
 	    brief: "Multi platform game",
 	    link: "/",
-	    image: "src/assets/projects/planes.png",
+	    image: "https://jasonmitchell7.github.io/src/assets/projects/planes.png",
 	    created: "01/20/2015",
 	    description: "Planes was a game I created using C# and Unity. It was my first project in Unity, and a " + "learning experience in using Unity to develop for both iOS and Android simultaneously."
 	}];
