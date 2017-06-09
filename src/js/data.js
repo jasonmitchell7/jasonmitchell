@@ -1,3 +1,11 @@
+const routes = [
+    '/',
+    '/index/',
+    '/projects/',
+    '/blog/',
+    '/contact/'
+];
+
 const navItemData = [
     {to: "index", title: "Home"},
     {to: "projects", title: "Projects"},
@@ -80,6 +88,7 @@ const skills = [
 
 
 module.exports = {
+    routes: routes,
     navItemData: navItemData,
     descriptors: descriptors,
     joys: joys,

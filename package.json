@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server --content-base src --progress --inline --hot",
+    "build": "webpack -p --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jason Mitchell",
