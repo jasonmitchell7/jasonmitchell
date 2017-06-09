@@ -1,3 +1,3 @@
 module.exports = {
-    logoInitialsSrc: './../assets/logo-initials.png'
+    logoInitialsSrc: 'src/assets/logo-initials.png'
 };
