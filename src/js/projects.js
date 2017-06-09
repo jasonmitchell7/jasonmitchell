@@ -1,18 +1,5 @@
 const projects = [
     {
-        title: "Simple Directions",
-        brief: "Angular 4 and Google Maps API",
-        link: "/",
-        image: "/assets/projects/planes.png",
-        created: "05/15/2017",
-        description: "This was a simple Angular 4 app that I created as a way to learn about Angular 2+ as well as " +
-        "the Google Maps API. I had previously used a lot of Angular 1.X in my internship with Infinite Campus, " +
-        "and had preferred React to those versions of Angular. While creating this simple web app, I gained a new " +
-        "appreciation for Angular and find it hard to choose between the two. They are both a pleasure to work in. " +
-        "In addition, I also wanted to try creating some Material Design elements with CSS, as can be seen by the " +
-        "styling on the buttons and text inputs."
-    },
-    {
         title: "Slices iOS",
         brief: "iOS social media app and API",
         link: "/",
@@ -59,7 +46,7 @@ const projects = [
         brief: "Multi platform game",
         link: "/",
         image: "/assets/projects/planes.png",
-        created: "01/20/2016",
+        created: "01/20/2015",
         description: "Planes was a game I created using C# and Unity. It was my first project in Unity, and a " +
         "learning experience in using Unity to develop for both iOS and Android simultaneously."
     }
