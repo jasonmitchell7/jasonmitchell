@@ -2,5 +2,5 @@
 .idea
 *.iml
 node_modules
-assets
+/assets
 npm-debug.log
