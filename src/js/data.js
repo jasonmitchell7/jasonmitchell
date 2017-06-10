@@ -15,7 +15,7 @@ const navItemData = [
 
 const social = [
     {name: "LinkedIn", url: "https://www.linkedin.com/in/jason-mitchell-91160434"},
-    {name: "GitHub", url: "/"}
+    {name: "GitHub", url: "https://github.com/jasonmitchell7"}
 ];
 
 const email = "jasonmitchell7@gmail.com";
