@@ -13,6 +13,7 @@ export default class Skill extends React.Component {
         };
 
         this.handleScroll = this.handleScroll.bind(this);
+        this.getMeterForDisplay = this.getMeterForDisplay.bind(this);
     }
 
     handleScroll(event) {
@@ -36,14 +37,25 @@ export default class Skill extends React.Component {
         window.removeEventListener('scroll', this.handleScroll);
     }
 
+    getMeterForDisplay() {
+        if (navigator.userAgent.indexOf("Firefox") > 0) {
+            return "";
+        } else {
+            return (
+                <div className="skillKnowledge">
+                    <KnowledgeMeter level={this.props.skill.level} isDisplayed={this.state.isDisplayed}/>
+                </div>
+            );
+        }
+
+    }
+
     render() {
         return (
             <div className="skillContainer">
                 <h3 className="skillName">{this.props.skill.name}</h3>
                 <div className="skillInfo" ref={(div) => {this.skillInfoDiv = div;}}>
-                    <div className="skillKnowledge">
-                        <KnowledgeMeter level={this.props.skill.level} isDisplayed={this.state.isDisplayed}/>
-                    </div>
+                    {this.getMeterForDisplay()}
                     <div>
                         <div className={this.state.isDisplayed ? "skillDescription showDescription" : "skillDescription"}>
                             {this.props.skill.description}
