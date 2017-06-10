@@ -13,7 +13,7 @@ export default class Skill extends React.Component {
     render() {
         return (
             <div className="projectElement">
-                <div className="projectImage"></div>
+                <div className="projectImage" style={{backgroundImage: 'url(' + this.props.project.image + ')'}}></div>
                 <div className="projectCard">
                     <div className="projectTitle">{this.props.project.title}</div>
                     <div className="projectBrief">{this.props.project.brief}</div>
